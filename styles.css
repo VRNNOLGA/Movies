@@ -1,0 +1,69 @@
+body {
+    background-color:#F5DF99 ;
+}
+.violet{
+    color:#371B58 ;
+}
+.blue {
+    color: #3A5BA0;
+}
+.pink {
+    color: #C70A80;
+}
+.table, th,td {
+    border: 3px solid #000000
+}
+.color {
+    color: #A760FF
+}
+.green {
+    color: #4B8673;
+}
+.color1{
+    color: #990000
+}
+.color2 {
+    color: #FF5B00
+}
+.color3 {
+    color: #A760FF;
+}
+.one {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h1, img,ul,h3 {
+    align-self: center;
+}
+.two {
+    display: flex;
+    flex-direction: column;
+}
+.three {
+    display: flex;
+    flex-direction: column;
+}
+.four {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+    
+
+
+@media all and (max-width:800px) {
+    table {
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+}
+@media all and (max-width:500px) {
+    h1 {
+    font-size: 15px;
+    }
+}
